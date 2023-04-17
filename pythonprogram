@@ -3,9 +3,10 @@ import mysql.connector
 # Connect to the database
 mydb = mysql.connector.connect(
   host="localhost",
-  user="yourusername",
-  password="yourpassword",
+  user="root",
+  password="Ga11oway!",
   database="AutoRepairShop_V1"
+  port = '3306'
 )
 
 # Define a function to add a new owner to the Owner table
